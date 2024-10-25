@@ -12,4 +12,6 @@ assignees: ''
 - [ ] Create demo site
 - [ ] Create theme showcase
 - [ ] Network activate
-- [ ] Launch theme
+- [ ] Add theme to the curated list
+- [ ] Verify theme in showcase `https://wordpress.com/theme/themeslug`
+- [ ] Verify theme in onboarding ` https://wordpress.com/start`
