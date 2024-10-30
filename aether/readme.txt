@@ -13,6 +13,9 @@ Aether is a store theme designed for small jewelry and accessories brands. Perfe
 
 == Changelog ==
 
+= 1.1 =
+* Update header-content.php (#8307)
+
 = 1.0.0 =
 * Initial release
 
