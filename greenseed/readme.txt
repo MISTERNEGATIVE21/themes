@@ -12,6 +12,18 @@ Greenseed is a sleek, simple theme tailored for small businesses aiming to make 
 
 == Changelog ==
 
+= 1.0.2 =
+* Internationalised the footer (#8310)
+* Cleanup template parts (#8311)
+* Reformat theme.json (#8312)
+* Fix 404 template (#8313)
+* Greenseed: Fix Archive template (#8314)
+* Fix Index template (#8315)
+* Fix Search template (#8316)
+* Fix home template (#8317)
+* Fix Page template (#8318)
+* Fix Single post template (#8319)
+
 = 1.0.1 =
 * renamed images (#8123)
 
