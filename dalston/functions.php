@@ -206,7 +206,7 @@ function dalston_editor_styles() {
 
 	// Hide duplicate palette colors
 	$colors_array = get_theme_mod( 'colors_manager', array( 'colors' => true ) ); // color annotations array()
-	if ( ! empty( $colors_array ) && $colors_array['colors']['txt'] != '#1E1E1E' ) { // $config-global--color-foreground-light-default;
+	if ( ! empty( $colors_array ) && ! empty( $colors_array['colors'] ) && ! empty( $colors_array['colors']['txt'] ) && $colors_array['colors']['txt'] != '#1E1E1E' ) { // $config-global--color-foreground-light-default;
 		$inline_palette_css = '.components-circular-option-picker__option-wrapper:nth-child(5),
 			.components-circular-option-picker__option-wrapper:nth-child(6) {
 				display: none;
@@ -270,6 +270,18 @@ function dalston_block_extends_styles() {
 	);
 }
 add_action( 'enqueue_block_assets', 'dalston_block_extends_styles' );
+
+/**
+ * Enqueue Custom Cover Block Scripts
+ */
+function dalston_block_extends_scripts() {
+
+	wp_enqueue_script(
+		'dalston-extend-cover-block-script',
+		get_stylesheet_directory_uri() . '/block-extends/extend-cover-block-script.js'
+	);
+}
+add_action( 'enqueue_block_assets', 'dalston_block_extends_scripts' );
 
 /**
  * Whether this is an AMP endpoint.
