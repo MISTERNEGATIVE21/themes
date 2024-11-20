@@ -12,6 +12,9 @@ A simple blogging theme ideal for writers.
 
 == Changelog ==
 
+= 1.0.5 =
+* Loic: Add fix for SyntaxHighlighter max-width bug (#8414)
+
 = 1.0.3 =
 * Loic: Update theme and prepare for Dotorg submission (#7814)
 

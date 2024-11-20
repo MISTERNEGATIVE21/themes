@@ -14,6 +14,9 @@ Message is a theme that brings the mobile messaging experience to your WordPress
 
 == Changelog ==
 
+= 1.0.3 =
+* Message: Fix for SyntaxHighlighter overflow and editor contrast (#8415)
+
 = 1.0.1 =
 * Updates version number to equal the showcase
 
