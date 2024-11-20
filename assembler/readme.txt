@@ -12,6 +12,10 @@ Assemble something beautiful.
 
 == Changelog ==
 
+= 0.0.24 =
+* improve spacing within post content (#8420)
+* Curating Assembler color variations (#8422)
+
 = 0.0.23 =
 * Assembler: Add more keywords to font pairings (#8358)
 * Fix Lucette typography style JSON validation (#8409)
