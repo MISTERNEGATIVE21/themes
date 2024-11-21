@@ -1,9 +1,10 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Fahwang & DM Sans",
+	"title": "Fahkwang & DM Sans",
+	"category": "sophisticated",
 	"keywords": [
-		"sans-serif",
+		"sans serif",
 		"modern",
 		"elegant",
 		"light",
@@ -19,6 +20,70 @@
 	],
 	"settings": {
 		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Fahkwang",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/fahkwang/Fahkwang-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "Fahkwang",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/fahkwang/Fahkwang-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "Fahkwang",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/fahkwang/Fahkwang-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Fahkwang",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/fahkwang/Fahkwang-BoldItalic.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Fahkwang\", sans-serif",
+					"name": "Fahkwang",
+					"slug": "fahkwang"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "DM Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStyle": "italic",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Italic-VariableFont_opsz,wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"DM Sans\", sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans"
+				}
+			],
 			"fontSizes": [
 				{
 					"name": "Small",
@@ -73,24 +138,35 @@
 			"core/site-title": {
 				"typography": {
 					"fontWeight": "300",
-					"fontSize": "24px"
+					"fontSize": "26px"
 				}
 			},
 			"core/navigation": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontSize": "14px",
 					"fontWeight": "400",
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"textTransform": "uppercase",
-					"letterSpacing": "1px"
+					"letterSpacing": "2px",
+					"lineHeight": "1.9"
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "13px",
+					"fontWeight": "400",
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
+					"textTransform": "uppercase",
+					"letterSpacing": "2px",
+					"lineHeight": "1.9"
 				}
 			}
 		},
 		"elements": {
 			"button": {
 				"typography": {
-					"fontSize": "13px",
-					"fontWeight": "400",
+					"fontSize": "14px",
+					"fontWeight": "450",
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"textTransform": "uppercase",
 					"letterSpacing": "2px",
@@ -100,7 +176,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--fahkwang)",
-					"fontWeight": "200"
+					"fontWeight": "400"
 				}
 			},
 			"h1": {

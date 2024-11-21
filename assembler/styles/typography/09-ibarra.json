@@ -2,6 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"title": "Ibarra",
+	"category": "professional",
 	"keywords": [
 		"serif",
 		"traditional",
@@ -19,6 +20,49 @@
 	],
 	"settings": {
 		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Ibarra Real Nova",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 800",
+							"src": [
+								"file:./assets/fonts/ibarra-real-nova/IbarraRealNova-VariableFont_wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Ibarra Real Nova\", serif",
+					"name": "Ibarra Real Nova",
+					"slug": "ibarra-real-nova"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 800",
+							"src": [
+								"file:./assets/fonts/inter/InterVariable.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 800",
+							"src": [
+								"file:./assets/fonts/inter/InterVariable-Italic.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				}
+			],
 			"fontSizes": [
 				{
 					"name": "Small",
@@ -74,7 +118,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--inter)",
 					"fontSize": "13px",
-					"fontWeight": "500",
+					"fontWeight": "600",
 					"textTransform": "uppercase",
 					"letterSpacing": "2px"
 				}
@@ -83,6 +127,15 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--inter)",
 					"fontSize": "13px",
+					"fontWeight": "500",
+					"textTransform": "uppercase",
+					"letterSpacing": "2px"
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontSize": "12px",
 					"fontWeight": "500",
 					"textTransform": "uppercase",
 					"letterSpacing": "2px"
