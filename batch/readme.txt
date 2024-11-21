@@ -15,6 +15,9 @@ Batch is a store theme for small bakeries and local businesses specializing in s
 
 == Changelog ==
 
+= 1.1 =
+* Update home.html (#8443)
+
 = 1.0.0 =
 * Initial release
 
