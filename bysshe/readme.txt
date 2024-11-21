@@ -12,6 +12,9 @@ Bysshe is crafted light and elegantly for poetry. It explores using blocks of te
 
 == Changelog ==
 
+= 1.0.1 =
+* Update Archives Template (#8449)
+
 = 1.0.0 =
 * Initial release
 

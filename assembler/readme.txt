@@ -12,6 +12,10 @@ Assemble something beautiful.
 
 == Changelog ==
 
+= 0.0.25 =
+* Assembler: Fix title display + remove extra pattern (#8423)
+* Improve Assembler typography styles (#8421)
+
 = 0.0.24 =
 * improve spacing within post content (#8420)
 * Curating Assembler color variations (#8422)
