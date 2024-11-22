@@ -12,6 +12,9 @@ Assemble something beautiful.
 
 == Changelog ==
 
+= 0.0.26 =
+* Theme Assembler: Fix radio control height css issue (#8186)
+
 = 0.0.25 =
 * Assembler: Fix title display + remove extra pattern (#8423)
 * Improve Assembler typography styles (#8421)
