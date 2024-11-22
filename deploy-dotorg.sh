@@ -133,8 +133,13 @@ for THEME_SLUG in */ ; do
 		    exit 1
 		fi
 
-		# Proceed with SVN operations
-		svn status $SVN_DIR/$THEME_VERSION | grep "^\!" | sed 's/^\! *//g' | xargs svn rm
+		# Find files marked for deletion and remove them
+		files_to_delete=$(svn status $SVN_DIR/$THEME_VERSION | grep "^\!" | sed 's/^\! *//g')
+		if [[ -n "$files_to_delete" ]]; then
+		    echo "$files_to_delete" | xargs svn rm
+		fi
+
+		# Add new and modified files
 		svn add $SVN_DIR/$THEME_VERSION --force --depth infinity -q > /dev/null
 
 		echo "➤ Committing files..."
