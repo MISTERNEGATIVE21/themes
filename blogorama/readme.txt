@@ -12,6 +12,9 @@ A beautifully designed blog theme displaying large typography and customizable c
 
 == Changelog ==
 
+= 1.0.3 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.2 =
 * Lossless image optimization (#7671)
 

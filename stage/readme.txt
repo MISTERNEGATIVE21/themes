@@ -12,6 +12,9 @@ Stage is the perfect theme for our users engaged in artistic activities. Its con
 
 == Changelog ==
 
+= 1.0.4 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.3 =
 * Stage: update style variations (#7501)
 * Lossless image optimization (#7671)

@@ -12,6 +12,9 @@ Bring the Social Media experience to your site and transform it into a repositor
 
 == Changelog ==
 
+= 1.0.3 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.2 =
 * Lossless image optimization (#7671)
 

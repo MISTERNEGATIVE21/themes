@@ -12,6 +12,9 @@ Pieria is a theme focused on typography — essentially following a low-level st
 
 == Changelog ==
 
+= 1.0.4 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.3 =
 * Lossless image optimization (#7671)
 

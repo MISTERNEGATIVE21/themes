@@ -12,6 +12,9 @@ Texty is a text-only blog theme that trusts Post excerpts rather than Post title
 
 == Changelog ==
 
+= 1.0.4 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.3 =
 * Lossless image optimization (#7671)
 

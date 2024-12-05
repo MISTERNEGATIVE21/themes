@@ -12,6 +12,9 @@ Allez is the perfect theme site for sports practitioners or fans who want to blo
 
 == Changelog ==
 
+= 1.0.3 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.2 =
 * Lossless image optimization (#7671)
 

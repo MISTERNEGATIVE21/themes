@@ -12,6 +12,9 @@ Messagerie is a theme that brings the mobile messaging experience to your WordPr
 
 == Changelog ==
 
+= 1.0.4 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.3 =
 * Lossless image optimization (#7671)
 

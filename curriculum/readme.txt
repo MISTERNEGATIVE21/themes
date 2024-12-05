@@ -12,6 +12,9 @@ Curriculum is a blog theme that echoes the structure of a professional profile w
 
 == Changelog ==
 
+= 1.0.4 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.3 =
 * Lossless image optimization (#7671)
 

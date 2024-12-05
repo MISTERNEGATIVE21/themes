@@ -12,6 +12,9 @@ A simple theme designed to facilitate restaurant owners' experience when buildin
 
 == Changelog ==
 
+= 1.0.3 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.2 =
 * Lossless image optimization (#7671)
 

@@ -14,6 +14,9 @@ A design system for WordPress sites built with Gutenberg.
 
 == Changelog ==
 
+= 1.6.34 =
+* Corrected authors/contributors names (#8478)
+
 = 1.6.32 =
 * Clean up reset styles on images for IE (#7918)
 

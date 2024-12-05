@@ -12,6 +12,9 @@ Overlaid displays large titles and excerpts that scroll over an image on the Hom
 
 == Changelog ==
 
+= 1.0.2 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.1 =
 * Lossless image optimization (#7671)
 

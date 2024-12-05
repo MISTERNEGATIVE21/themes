@@ -12,6 +12,9 @@ Screenplay is a simple blog theme that suits perfectly writers or the general pu
 
 == Changelog ==
 
+= 1.0.2 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.1 =
 * Lossless image optimization (#7671)
 

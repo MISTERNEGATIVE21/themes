@@ -12,6 +12,9 @@ Besides an appreciable headshot, the theme offers large titles, descriptions, an
 
 == Changelog ==
 
+= 1.0.5 =
+* Corrected authors/contributors names (#8478)
+
 = 1.0.4 =
 * Updates from @henriqueiamarino (#7712)
 

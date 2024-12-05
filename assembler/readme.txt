@@ -12,6 +12,11 @@ Assemble something beautiful.
 
 == Changelog ==
 
+= 0.0.27 =
+* Fix Assembler outline variation size and style (#8489)
+* Remove forced post title font size for Assembler (#8490)
+* Add blank template to Assembler (#8491)
+
 = 0.0.26 =
 * Theme Assembler: Fix radio control height css issue (#8186)
 
