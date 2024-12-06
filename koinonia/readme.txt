@@ -15,6 +15,10 @@ Koinonia is a WordPress theme designed for non-profit organizations and communit
 
 == Changelog ==
 
+= 1.0.1 =
+* Koinonia: updates Hero image (#8494)
+* Koinonia: replaces the Jetpack submission block (#8495)
+
 = 1.0.0 =
 * Initial release
 

@@ -14,6 +14,9 @@ A design system for WordPress sites built with Gutenberg.
 
 == Changelog ==
 
+= 1.6.35 =
+* Update functions.php (#8510)
+
 = 1.6.34 =
 * Corrected authors/contributors names (#8478)
 
