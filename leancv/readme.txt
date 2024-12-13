@@ -2,19 +2,19 @@
 
 Contributors: Automattic
 Requires at least: 6.0
-Tested up to: 6.5
-Requires PHP: 5.7
+Tested up to: 6.7
+Requires PHP: 8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
 
-LeanCV is a blog theme that echoes the structure of a professional profile with original visuals and interesting navigation. It's suitable for the general public to display information, experiences, and education. And it's super easy to customize.
+LeanCV is a blog theme that echoes the structure of a professional curriculum. It's suitable for the general public to display information, experiences, and education. And it's super easy to customize.
 
 == Changelog ==
 
-= 1.1 =
+= 1.1.0 =
 * LeanCV: Use shared color variations (#7923)
 
 = 1.0.0 =
@@ -41,6 +41,7 @@ LeanCV is based on MyCV (), (C) Automattic, [GPLv2 or later](http://www.gnu.org/
 
 
 = Images ==
+
 Generated with AI on Midjourney, released under the CC0 license.
 
 
