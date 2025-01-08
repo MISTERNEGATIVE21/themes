@@ -1,44 +1,42 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 3,
-    "title": "Golden",
-    "category": "playful",
+    "title": "Fluorescent",
+    "category": "bold",
     "keywords": [
-        "elegant",
-        "warm",
-        "playful",
-        "earthy",
-        "luxurious",
-        "cozy",
-        "restaurant",
-        "hotel",
-        "beige"
+        "neon",
+        "electric",
+        "futuristic",
+        "cyberpunk",
+        "nightlife",
+        "tech",
+        "white"
     ],
     "settings": {
         "color": {
             "palette": [
                 {
-                    "color": "#c8b39c",
+                    "color": "#FFFFFF",
                     "name": "Color 1",
                     "slug": "theme-1"
                 },
                 {
-                    "color": "#161314",
+                    "color": "#03252D",
                     "name": "Color 2",
                     "slug": "theme-2"
                 },
                 {
-                    "color": "#7F89A8",
+                    "color": "#00DA01",
                     "name": "Color 3",
                     "slug": "theme-3"
                 },
                 {
-                    "color": "#C76F32",
+                    "color": "#F97AD1",
                     "name": "Color 4",
                     "slug": "theme-4"
                 },
                 {
-                    "color": "#F1EFE9",
+                    "color": "#021417",
                     "name": "Color 5",
                     "slug": "theme-5"
                 }
@@ -46,11 +44,19 @@
             "duotone": [
                 {
                     "colors": [
-                        "#161314",
-                        "#F1EFE9"
+                        "#03252D",
+                        "#00DA01"
                     ],
                     "slug": "duotone-1",
                     "name": "Duotone 1"
+                },
+                {
+                    "colors": [
+                        "#03252D",
+                        "#F97AD1"
+                    ],
+                    "slug": "duotone-2",
+                    "name": "Duotone 2"
                 }
             ],
             "gradients": [
@@ -117,24 +123,22 @@
             "background": "var(--wp--preset--color--theme-1)",
             "text": "var(--wp--preset--color--theme-2)"
         },
-        "blocks": {
-            "core/separator": {
-                "color": {
-                    "text": "currentColor"
-                }
-            }
-        },
         "elements": {
             "button": {
                 "color": {
                     "background": "var(--wp--preset--color--theme-2)",
-                    "text": "var(--wp--preset--color--theme-5)"
+                    "text": "var(--wp--preset--color--theme-1)"
                 },
                 ":hover": {
                     "color": {
                         "background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 75%, #000)",
-                        "text": "var(--wp--preset--color--theme-5)"
+                        "text": "var(--wp--preset--color--theme-1)"
                     }
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "currentColor"
                 }
             }
         },
@@ -143,59 +147,17 @@
                 "color": {
                     "background": "var(--wp--preset--color--theme-3)",
                     "text": "var(--wp--preset--color--theme-2)"
-                },
-                "blocks": {
-                    "core/separator": {
-                        "color": {
-                            "text": "currentColor"
-                        }
-                    }
-                },
-                "elements": {
-                    "button": {
-                        "color": {
-                            "background": "var(--wp--preset--color--theme-2)",
-                            "text": "var(--wp--preset--color--theme-5)"
-                        },
-                        ":hover": {
-                            "color": {
-                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 75%, #000)",
-                                "text": "var(--wp--preset--color--theme-5)"
-                            }
-                        }
-                    }
                 }
             },
             "section-2": {
                 "color": {
                     "background": "var(--wp--preset--color--theme-4)",
                     "text": "var(--wp--preset--color--theme-2)"
-                },
-                "blocks": {
-                    "core/separator": {
-                        "color": {
-                            "text": "currentColor"
-                        }
-                    }
-                },
-                "elements": {
-                    "button": {
-                        "color": {
-                            "background": "var(--wp--preset--color--theme-2)",
-                            "text": "var(--wp--preset--color--theme-5)"
-                        },
-                        ":hover": {
-                            "color": {
-                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 75%, #000)",
-                                "text": "var(--wp--preset--color--theme-5)"
-                            }
-                        }
-                    }
                 }
             },
             "section-3": {
                 "color": {
-                    "background": "var(--wp--preset--color--theme-2)",
+                    "background": "var(--wp--preset--color--theme-5)",
                     "text": "var(--wp--preset--color--theme-1)"
                 },
                 "blocks": {
@@ -213,7 +175,7 @@
                         },
                         ":hover": {
                             "color": {
-                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-1) 80%, #FFF)",
+                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-1) 85%, transparent)",
                                 "text": "var(--wp--preset--color--theme-2)"
                             }
                         }

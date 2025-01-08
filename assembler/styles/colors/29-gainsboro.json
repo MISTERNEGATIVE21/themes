@@ -1,71 +1,62 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 3,
-    "title": "Tangerine",
-    "category": "bold",
+    "title": "Gainsboro",
     "keywords": [
-        "energetic",
-        "vibrant",
         "modern",
-        "striking",
-        "warm",
-        "contrasting",
-        "professional",
-        "creative",
-        "sports",
-        "orange"
+        "minimalist",
+        "sleek",
+        "vibrant",
+        "contrast",
+        "tech",
+        "startup",
+        "agency",
+        "light",
+        "blue"
     ],
     "settings": {
         "color": {
             "palette": [
                 {
-                    "color": "#EAEAEA",
+                    "color": "#E4E4E4",
                     "name": "Color 2",
                     "slug": "theme-2"
                 },
                 {
-                    "color": "#000000",
-                    "name": "Color 5",
-                    "slug": "theme-5"
+                    "color": "#3333EA",
+                    "name": "Color 4",
+                    "slug": "theme-4"
                 },
                 {
-                    "color": "#FFFFFF",
+                    "color": "#FFF",
                     "name": "Color 1",
                     "slug": "theme-1"
                 },
                 {
-                    "color": "#ED4C05",
-                    "name": "Color 4",
-                    "slug": "theme-4"
+                    "color": "#0a0a2f",
+                    "name": "Color 3",
+                    "slug": "theme-3"
                 }
             ],
             "duotone": [
                 {
                     "colors": [
-                        "#000000",
+                        "#3333EA",
                         "#FFFFFF"
                     ],
                     "slug": "duotone-1",
                     "name": "Duotone 1"
-                },
-                {
-                    "colors": [
-                        "#ED4C05",
-                        "#FFFFFF"
-                    ],
-                    "slug": "duotone-2",
-                    "name": "Duotone 2"
                 }
             ],
             "gradients": [
                 {
                     "slug": "gradient-text-transparent",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-5) -50%, transparent 50%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-4) -50%, transparent 50%)",
                     "name": "Text to Transparent"
                 },
                 {
                     "slug": "gradient-1-2",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-5) 100%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-4) 100%)",
                     "name": "Gradient 1"
                 },
                 {
@@ -75,22 +66,22 @@
                 },
                 {
                     "slug": "gradient-1-4",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-4) 100%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-2) 0%, var(--wp--preset--color--theme-3) 100%)",
                     "name": "Gradient 3"
                 },
                 {
                     "slug": "gradient-2-3",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-5) 0%, var(--wp--preset--color--theme-1) 100%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-4) 0%, var(--wp--preset--color--theme-1) 100%)",
                     "name": "Gradient 4"
                 },
                 {
                     "slug": "gradient-2-4",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-5) 0%, var(--wp--preset--color--theme-4) 100%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-4) 0%, var(--wp--preset--color--theme-3) 100%)",
                     "name": "Gradient 5"
                 },
                 {
                     "slug": "gradient-3-4",
-                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-1) 0%, var(--wp--preset--color--theme-4) 100%)",
+                    "gradient": "linear-gradient(to bottom, var(--wp--preset--color--theme-1) 0%, var(--wp--preset--color--theme-3) 100%)",
                     "name": "Gradient 6"
                 }
             ]
@@ -99,12 +90,12 @@
     "styles": {
         "color": {
             "background": "var(--wp--preset--color--theme-2)",
-            "text": "var(--wp--preset--color--theme-5)"
+            "text": "var(--wp--preset--color--theme-4)"
         },
         "blocks": {
             "core/separator": {
                 "color": {
-                    "text": "var(--wp--preset--color--theme-5)"
+                    "text": "currentColor"
                 }
             }
         },
@@ -120,18 +111,23 @@
                         "text": "var(--wp--preset--color--theme-1)"
                     }
                 }
+            },
+            "link": {
+                "color": {
+                    "text": "currentColor"
+                }
             }
         },
         "variations": {
             "section-1": {
                 "color": {
                     "background": "var(--wp--preset--color--theme-1)",
-                    "text": "var(--wp--preset--color--theme-5)"
+                    "text": "var(--wp--preset--color--theme-4)"
                 },
                 "blocks": {
                     "core/separator": {
                         "color": {
-                            "text": "var(--wp--preset--color--theme-2)"
+                            "text": "currentColor"
                         }
                     }
                 },
@@ -146,6 +142,11 @@
                                 "background": "color-mix(in srgb, var(--wp--preset--color--theme-4) 85%, #000)",
                                 "text": "var(--wp--preset--color--theme-1)"
                             }
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "currentColor"
                         }
                     }
                 }
@@ -153,39 +154,44 @@
             "section-2": {
                 "color": {
                     "background": "var(--wp--preset--color--theme-4)",
-                    "text": "var(--wp--preset--color--theme-5)"
+                    "text": "var(--wp--preset--color--theme-2)"
                 },
                 "blocks": {
                     "core/separator": {
                         "color": {
-                            "text": "var(--wp--preset--color--theme-5)"
+                            "text": "color-mix(in srgb, currentColor 25%, transparent)"
                         }
                     }
                 },
                 "elements": {
                     "button": {
                         "color": {
-                            "background": "var(--wp--preset--color--theme-5)",
-                            "text": "var(--wp--preset--color--theme-1)"
+                            "background": "var(--wp--preset--color--theme-2)",
+                            "text": "var(--wp--preset--color--theme-4)"
                         },
                         ":hover": {
                             "color": {
-                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-5) 80%, transparent)",
-                                "text": "var(--wp--preset--color--theme-1)"
+                                "background": "color-mix(in srgb, var(--wp--preset--color--theme-2) 25%, #FFF)",
+                                "text": "var(--wp--preset--color--theme-4)"
                             }
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "currentColor"
                         }
                     }
                 }
             },
             "section-3": {
                 "color": {
-                    "background": "var(--wp--preset--color--theme-5)",
+                    "background": "var(--wp--preset--color--theme-3)",
                     "text": "var(--wp--preset--color--theme-2)"
                 },
                 "blocks": {
                     "core/separator": {
                         "color": {
-                            "text": "var(--wp--preset--color--theme-2)"
+                            "text": "color-mix(in srgb, currentColor 25%, transparent)"
                         }
                     }
                 },
@@ -200,6 +206,11 @@
                                 "background": "color-mix(in srgb, var(--wp--preset--color--theme-4) 85%, #000)",
                                 "text": "var(--wp--preset--color--theme-1)"
                             }
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "currentColor"
                         }
                     }
                 }
