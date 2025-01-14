@@ -12,6 +12,9 @@ Zoologist is a simple blogging theme that supports full-site editing.
 
 == Changelog ==
 
+= 1.0.46 =
+* Quadrat, Zoologist, Geologist: Fix post nav block arrows (#8571)
+
 = 1.0.45 =
 * Remove fixed font-size from post title block on blockbase themes (#8197)
 
