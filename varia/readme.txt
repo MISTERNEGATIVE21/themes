@@ -14,6 +14,9 @@ A design system for WordPress sites built with Gutenberg.
 
 == Changelog ==
 
+= 1.6.36 =
+* Varia: Fix nested bullets in menus (#8569)
+
 = 1.6.35 =
 * Update functions.php (#8510)
 
