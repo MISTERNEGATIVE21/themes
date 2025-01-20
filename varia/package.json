@@ -1,6 +1,6 @@
 {
 	"name": "varia",
-	"version": "1.6.37",
+	"version": "1.6.38",
 	"description": "A variable-based design system for WordPress sites built with Gutenberg.",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^5.16.0",

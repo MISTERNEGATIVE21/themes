@@ -14,6 +14,9 @@ A design system for WordPress sites built with Gutenberg.
 
 == Changelog ==
 
+= 1.6.38 =
+* Update theme URIs (#8599)
+
 = 1.6.37 =
 * Varia: Fix Jetpack subscription button (#8588)
 * Varia: Strengthen button CSS (#8585)

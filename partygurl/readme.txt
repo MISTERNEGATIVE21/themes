@@ -15,6 +15,9 @@ Partygurl embodies a bold and rebellious aesthetic, inspired by edgy, chaotic fu
 
 == Changelog ==
 
+= 1.1 =
+* Update theme URIs (#8599)
+
 = 1.0.0 =
 * Initial release
 

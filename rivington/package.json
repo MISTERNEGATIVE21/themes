@@ -1,6 +1,6 @@
 {
 	"name": "rivington",
-	"version": "1.3.31",
+	"version": "1.3.32",
 	"description": "Rivington",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^5.16.0",
