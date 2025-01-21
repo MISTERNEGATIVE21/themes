@@ -12,6 +12,9 @@ Stitchery is a small business theme perfect for showcasing handmade creations.
 
 == Changelog ==
 
+= 1.0.1 =
+* Update theme.json (#8603)
+
 = 1.0.0 =
 * Initial release
 
