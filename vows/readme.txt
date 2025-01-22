@@ -14,6 +14,9 @@ Vows works as a comprehensive hub for all your wedding-related links. Inspired b
 
 == Changelog ==
 
+= 1.2.2 =
+* Add strict types
+
 = 1.2.1 =
 * Added missing fonts (#8521)
 * Fixed style variations with correct fonts (#8521)
