@@ -14,6 +14,9 @@ Layover displays large titles and excerpts that scroll over an image on the Home
 
 == Changelog ==
 
+= 1.0.5 =
+* Add strict types
+
 = 1.0.4 =
 * Layover: essential fixes for Dotcom launch (#8622)
 * Layover: Minor cleanup (#8625)
