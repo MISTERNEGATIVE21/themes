@@ -15,6 +15,9 @@ MyMenu is a simple theme designed to facilitate restaurant owners’ site-buildi
 
 == Changelog ==
 
+= 1.0.6 =
+* Added strict types
+
 = 1.0.5 =
 * MyMenu: Essential fixes for Dotcom launch (#8620)
 
