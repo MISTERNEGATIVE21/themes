@@ -12,6 +12,9 @@ Geologist is a streamlined theme for modern bloggers. It consists of a simple si
 
 == Changelog ==
 
+= 1.0.47 =
+* fix color classes (#8616)
+
 = 1.0.46 =
 * Quadrat, Zoologist, Geologist: Fix post nav block arrows (#8571)
 
