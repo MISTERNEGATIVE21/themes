@@ -14,6 +14,9 @@ Brightblog is a blog theme displaying large typography and vibrant color palette
 
 == Changelog ==
 
+= 1.0.1 =
+* add strict types
+
 = 1.0.0 =
 * Initial release
 
