@@ -14,6 +14,9 @@ Get Grammer now to bring the Social Media experience to your site and transform 
 
 == Changelog ==
 
+= 1.1.3 =
+* Grammer: essential fixes for Dotcom launch (#8627)
+
 = 1.1.2 =
 * Changes during deploy
 
