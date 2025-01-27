@@ -14,6 +14,9 @@ WP-DOS is a blog theme designed for nostalgic ones. It is a tribute to the folks
 
 == Changelog ==
 
+= 1.1.2 =
+* Removed negative top margin from post content block in blog home template (#8632)
+
 = 1.1.1 =
 * Removed the navigation and pagination blocks from the column structure and made both wide;
 * Added the required No Results paragraph block;
