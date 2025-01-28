@@ -14,6 +14,9 @@ Timestream is a theme designed to display the track of events you choose to disp
 
 == Changelog ==
 
+= 1.0.1 =
+* Unmark Guggenheim font as executable and added a missing footer pattern (#8640)
+
 = 1.0.0 =
 * Initial release
 
