@@ -20,6 +20,9 @@ Spearhead is a child-theme of Seedlet: https://wordpress.org/themes/seedlet, and
 
 == Changelog ==
 
+= 1.3.21 =
+* Update deps and remove node-sass (#8624)
+
 = 1.3.20 =
 * Spearhead: fix wp editor colors import path (#7853)
 

@@ -1,6 +1,6 @@
 {
 	"name": "leven",
-	"version": "1.4.33",
+	"version": "1.4.34",
 	"description": "Leven",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^6.16.0",

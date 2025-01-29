@@ -1,6 +1,6 @@
 {
 	"name": "shawburn",
-	"version": "1.4.35",
+	"version": "1.4.36",
 	"description": "Shawburn",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^6.16.0",

@@ -1,6 +1,6 @@
 {
 	"name": "modern-business",
-	"version": "1.7.14",
+	"version": "1.7.15",
 	"description": "Style Variation of the Default WP Theme",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^6.16.0",
