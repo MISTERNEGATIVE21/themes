@@ -1,6 +1,6 @@
 {
 	"name": "brompton",
-	"version": "1.4.35",
+	"version": "1.4.36",
 	"description": "Brompton",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^6.16.0",

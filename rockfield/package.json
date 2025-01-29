@@ -1,6 +1,6 @@
 {
 	"name": "rockfield",
-	"version": "1.4.37",
+	"version": "1.4.38",
 	"description": "Rockfield",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^6.16.0",

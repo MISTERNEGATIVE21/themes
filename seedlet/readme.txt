@@ -18,6 +18,9 @@ Seedlet is a great option for professionals and creatives looking for a sophisti
 
 == Changelog ==
 
+= 1.1.37 =
+* Update all CSS files built with sass package (#8647)
+
 = 1.1.36 =
 * Update deps and remove node-sass (#8624)
 

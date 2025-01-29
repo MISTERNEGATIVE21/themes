@@ -1,6 +1,6 @@
 {
 	"name": "stow",
-	"version": "1.5.34",
+	"version": "1.5.35",
 	"description": "Stow",
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^5.16.0",

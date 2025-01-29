@@ -14,6 +14,9 @@ A design system for WordPress sites built with Gutenberg.
 
 == Changelog ==
 
+= 1.6.41 =
+* Update all CSS files built with sass package (#8647)
+
 = 1.6.40 =
 * Update deps and remove node-sass (#8624)
 
