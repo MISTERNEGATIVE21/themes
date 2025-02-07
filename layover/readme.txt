@@ -14,6 +14,9 @@ Layover displays large titles and excerpts that scroll over an image on the Home
 
 == Changelog ==
 
+= 1.0.6 =
+* Layover: Fixes link color issue (#8682)
+
 = 1.0.5 =
 * Add strict types
 
