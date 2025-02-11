@@ -12,6 +12,9 @@ Course is a flexible and modern education theme for anyone wanting to share thei
 
 == Changelog ==
 
+= 1.3.10 =
+* Course: Add home template (#8683)
+
 = 1.3.9 =
 * Fix broken blocks in site editor templates (#8101)
 
