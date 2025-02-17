@@ -1,5 +1,9 @@
 # Automattic Themes
 
+---
+⚠ This repo is retired, public theme development has moved to the GitHub Enterprise repo. More info and context over at pNEWy-iBK-p2
+---
+
 The development repository for themes maintained by the [Automattic Theme Team](https://themeshaper.com/about/). 
 
 ## What's Here
